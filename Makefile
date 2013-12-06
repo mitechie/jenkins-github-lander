@@ -41,7 +41,7 @@ clean_all: clean_venv
 
 .PHONY: run
 run: develop $(INI)
-	bin/pserve development.ini
+	bin/pserve --reload development.ini
 
 .PHONY: test
 test:

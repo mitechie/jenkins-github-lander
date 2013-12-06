@@ -14,6 +14,7 @@ version = '0.1a1'
 install_requires = [
     'pyramid',
     'pyramid_debugtoolbar',
+    'pyramid_mako',
     'requests',
     'waitress',
 ]
